@@ -28,7 +28,7 @@ const Footer = () => {
             <p className="footer-description">
               Lrnsy is human-led operating system for personalised education.
             </p>
-            <div className="social-links">
+            {/* <div className="social-links">
               <a href="#" className="social-link social-square">
                 <X size={16} />
               </a>
@@ -38,12 +38,45 @@ const Footer = () => {
               <a href="#" className="social-link social-square">
                 <Instagram size={16} />
               </a>
-            </div>
-            <div className="footer-legal-links">
+            </div> */}
+            <div className="social-links">
+  <a
+    href="https://x.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="social-link social-square"
+  >
+    <X size={16} />
+  </a>
+
+  <a
+    href="https://linkedin.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="social-link social-square"
+  >
+    <Linkedin size={16} />
+  </a>
+
+  <a
+    href="https://instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="social-link social-square"
+  >
+    <Instagram size={16} />
+  </a>
+</div>
+            {/* <div className="footer-legal-links">
               <a href="#terms">Terms and Conditions</a>
               <a href="#privacy">Privacy Policy</a>
               <a href="#refund">Refund Policy</a>
-            </div>
+            </div> */}
+            <div className="footer-legal-links">
+  <a href="/terms">Terms and Conditions</a>
+  <a href="/privacy">Privacy Policy</a>
+  <a href="/refund">Refund Policy</a>
+</div>
             <div className="copyright">
               © 2026 Lrnsy. All rights reserved.
             </div>
