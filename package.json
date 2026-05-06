@@ -2,8 +2,8 @@
   "name": "demo-video-upload",
   "version": "1.0.0",
   "private": true,
-  "engines": {
-  "node": "18.x"
+ "engines": {
+  "node": "22.x"
 },
   "dependencies": {
     "lucide-react": "^0.263.1",
